@@ -79,4 +79,20 @@
 #     print(f"Você pagará R${longa:.2f} reais pois sua viagem tem mais de 200km")
 
 # exercício 08
-# from math import ceil
+from math import ceil
+tinta = int(input("Digite a quantidade de latas de tinta: "))
+if tinta == 1:
+    tinta = tinta * 50
+    print("O preço da lata de tinta é R$50,00")
+
+if tinta == 2:
+    tinta = tinta * 48
+    print(f"O preço da lata de tinta é de R$48,00 cada, sendo o total de R${tinta:.2f}")
+
+if tinta == 3:
+    tinta = tinta * 46
+    print(f"O preço da lata de tinta é de R$46,00 cada, sendo o total de R${tinta:.2f}")
+
+if tinta > 3:
+    tinta = tinta * 45
+    print(f"O preço da lata de tinta é de R$45,00 cada, sendo o total de R${tinta:.2f}")
