@@ -79,20 +79,34 @@
 #     print(f"Você pagará R${longa:.2f} reais pois sua viagem tem mais de 200km")
 
 # exercício 08
-from math import ceil
-tinta = int(input("Digite a quantidade de latas de tinta: "))
-if tinta == 1:
-    tinta = tinta * 50
-    print("O preço da lata de tinta é R$50,00")
+# from math import ceil
+# altura = float(input("digite a altura do cilindro: "))
+# raio = float(input("digite o raio: ")) 
 
-if tinta == 2:
-    tinta = tinta * 48
-    print(f"O preço da lata de tinta é de R$48,00 cada, sendo o total de R${tinta:.2f}")
+# area_base= 3.1415* (raio**2)
 
-if tinta == 3:
-    tinta = tinta * 46
-    print(f"O preço da lata de tinta é de R$46,00 cada, sendo o total de R${tinta:.2f}")
+# perimetro= 2* 3.1415 * raio
+# area_lateral= altura*perimetro
 
-if tinta > 3:
-    tinta = tinta * 45
-    print(f"O preço da lata de tinta é de R$45,00 cada, sendo o total de R${tinta:.2f}")
+# area_total = area_lateral + area_base
+
+# litros = area_total/3
+# latas = ceil(litros/5)
+
+# if latas == 1:
+#     preco_unit=50
+# if latas == 2:    
+#     preco_unit=48
+# if latas == 3:
+#     preco_unit=46
+# else:
+#     preco_unit=45
+
+# preco_total= preco_unit * latas
+
+# print(f"Área a ser pintada: {area_total:.2f}")
+# print(f"Quantidade de litros necessários: {litros:.2f}")
+# print(f"Quantidade de latas: {latas:.2f}")
+# print(f"Preco unitário de lata R$ {preco_unit:.2f}")
+# print(f"Custo total: R${preco_total}")
+
