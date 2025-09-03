@@ -8,12 +8,15 @@
 #    print(f"Maior: {b} ")
 
 
+
 # # Exercício 02
 # a = int(input("Digite um número: "))
 # if a >=0:
 #         print("O número é positivo")
 # else:
 #     print("O número é negativo")
+
+
     
 # Exercício 03
 # print("----------------------------")
@@ -34,6 +37,8 @@
 # if dias == 7:
 #     print("O dia da semana é Sábado")
 
+
+
 #Exercício 04
 # salario = float(input("Digite o valor do salario atual: "))
 # if salario > 1250:
@@ -46,12 +51,16 @@
 #      print("O funcionário tem direito a 15% de aumento")
 #      print(f"Novo salário {novo_salario:.2f}")
 
+
+
 # Exercício 05
 # anoatual = int(input("Digite o ano atual: "))
 # anonasc = int(input("Digite o seu ano de nascimento: "))
 # aniversário = anoatual - anonasc
 # if aniversário >= 18:
 #     print(f"Sua idade é {aniversário}, você pode tirar sua CNH ")
+
+
 
 # Exercício 06
 # print("------------------------------------------------------")
@@ -67,6 +76,8 @@
 #     carro <2022
 #     print(f"O seu carro é velho pois foi fabricado há {velho} anos atrás ")
 
+
+
 # Exercício 07
 # km = int(input("Digite a quantidade de km da viagem: "))
 
@@ -77,6 +88,8 @@
 #     km > 200
 #     longa = km * 0.45
 #     print(f"Você pagará R${longa:.2f} reais pois sua viagem tem mais de 200km")
+
+
 
 # exercício 08
 # from math import ceil
