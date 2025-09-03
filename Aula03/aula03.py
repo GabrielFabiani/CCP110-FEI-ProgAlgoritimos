@@ -117,7 +117,7 @@
 
 # preco_total= preco_unit * latas
 
-# print(f"Área a ser pintada: {area_total:.2f}")
+# print(f"Área a ser pintada: {area_total:.2f} m²")
 # print(f"Quantidade de litros necessários: {litros:.2f}")
 # print(f"Quantidade de latas: {latas:.2f}")
 # print(f"Preco unitário de lata R$ {preco_unit:.2f}")
