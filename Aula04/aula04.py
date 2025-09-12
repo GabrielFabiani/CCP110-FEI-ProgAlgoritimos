@@ -102,4 +102,4 @@
 #     print("Limpeza e utensílios domésticos")
 # else:
 #     print("Inválido")
->>>>>>> a0ed2170de04378b76efdaa7301b947f5084a792
+
