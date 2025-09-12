@@ -71,16 +71,16 @@
 #     print("Número inválido, tente novamente")
 
 # exercício 06
-while True:
-    n = int(input("Digite um número (ou 0 para sair):"))
-    if n==0:
-        break
-    soma = soma + n
-    contador = contador + 1
+# while True:
+#     n = int(input("Digite um número (ou 0 para sair):"))
+#     if n==0:
+#         break
+#     soma = soma + n
+#     contador = contador + 1
 
-print(f"Quantidade de números: {contador}")
-print (f"Soma dos números: {soma}")
-if contador > 0:
-    print(f"Media dos números: {soma / contador}")
+# print(f"Quantidade de números: {contador}")
+# print (f"Soma dos números: {soma}")
+# if contador > 0:
+#     print(f"Media dos números: {soma / contador}")
 
 
