@@ -37,25 +37,25 @@
 # print(f"O produto custa {preco:.2f} e é originário do(a): {procedencia}")
 
 #Exercício 02
-a = int(input("Digite o primeiro número: "))
-b = int(input("Digite o segundo número: "))
-c = int(input("Digite o terceiro número: "))
-if a > b and a>c:
-    print(f"O maior valor é A: {a}")
-    if b > c:
-        print (a,b,c)
-    elif c > b:
-        print (a,c,b)
-elif b > a and b >c:
-    print(f"O maior valor é B: {b}")
-    if a > c:
-        print(b,a,c)
-    elif c > a:
-        print (b,c,a)
-elif c > a and c >b:
-    print(f"O maior valor é C: {c}")
-    if a > b:
-        print(c,a,b)
-    elif b > a:
-        print(c,b,a)
-else: print("Os números são iguais")
+# a = int(input("Digite o primeiro número: "))
+# b = int(input("Digite o segundo número: "))
+# c = int(input("Digite o terceiro número: "))
+# if a > b and a>c:
+#     print(f"O maior valor é A: {a}")
+#     if b > c:
+#         print (a,b,c)
+#     elif c > b:
+#         print (a,c,b)
+# elif b > a and b >c:
+#     print(f"O maior valor é B: {b}")
+#     if a > c:
+#         print(b,a,c)
+#     elif c > a:
+#         print (b,c,a)
+# elif c > a and c >b:
+#     print(f"O maior valor é C: {c}")
+#     if a > b:
+#         print(c,a,b)
+#     elif b > a:
+#         print(c,b,a)
+# else: print("Os números são iguais")
