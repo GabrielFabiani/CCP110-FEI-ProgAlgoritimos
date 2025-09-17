@@ -59,6 +59,7 @@
 #     elif b > a:
 #         print(c,b,a)
 # else: print("Os números são iguais")
+# else: print("Os números são iguais")
 
 # Exercício 03
 # sexo = input("Digite seu sexo, M ou F: ")
