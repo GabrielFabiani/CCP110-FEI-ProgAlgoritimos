@@ -4,10 +4,11 @@
 # ▶ Utilize uma lista para isso.
 
 lista = []
-lista1 = lista[:]
 for i in range(5):
     n = int(input("Digite um número: "))
     lista.append(n)
+
+lista1 = lista[::-1]
 print(lista)
 print(lista1)
 
